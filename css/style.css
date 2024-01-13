@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    background: #FAFDF2;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1A3129;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__logo a {
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__menu {
+    display: flex;
+    gap: 26px;
+}
+
+.header__menu a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.header__menu #main {
+    color: #CBEA7B;
+}
+
+/*  */
+
+.main {
+    padding: 200px 0 187px 0;
+}
+
+.main h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-text {
+    margin: 10px 0 80px 0;
+}
+
+.reward-text {
+    padding: 40px;
+}
+
+.main__reward {
+    background-color: #F6FBE9;
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 12px;
+}
+
+.main__reward h3 {
+    color: #1A3129;
+    font-size: 18px;
+    font-weight: 700;
+}
+.reward__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reward__button {
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #E5F5BD;
+    margin: 4px;
+}
+.green {
+    background-color: #356554;
+}
+.btn-arrow {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #EEF8D3;
+    background: #F6FBE9;
+    margin: 26px;
+}
