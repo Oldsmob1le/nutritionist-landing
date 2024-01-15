@@ -48,7 +48,9 @@ header {
     color: #fff;
     font-size: 18px;
 }
-
+.header__menu a:hover {
+    color: #CBEA7B;
+}
 .header__menu #main {
     color: #CBEA7B;
 }
