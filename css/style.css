@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1596px;
     margin: 0 auto;
 }
 
@@ -67,15 +67,20 @@ header {
 
 .main p {
     font-size: 18px;
-    text-align: center;
 }
 
 .main-text {
     margin: 10px 0 80px 0;
+    text-align: center;
 }
 
 .reward-text {
-    padding: 40px;
+    margin: 40px;
+}
+
+.border {
+    border-radius: 16px;
+    border: 1px solid #EEF8D3;
 }
 
 .main__reward {
